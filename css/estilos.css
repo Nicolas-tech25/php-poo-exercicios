@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(44, 44, 44);
+    font-family: Verdana;
+    margin-top: 18%;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: dodgerblue 7px 7px;
+}
