@@ -22,5 +22,11 @@
         <p>Páginas: <?= $Livro_01->getPaginas() ?></p> 
     </article>
 
+    <?php
+        require_once "tecnico.php";
+
+        $clienteTc = new Tecnico
+    ?>
+
 </body>
 </html>
