@@ -1,6 +1,6 @@
 <?php
-namespace tabajara;
-require_once "tecnico.php";
+namespace Tucano;
+
 
 final class Didatico extends Tecnico{
     private string $diciplina;

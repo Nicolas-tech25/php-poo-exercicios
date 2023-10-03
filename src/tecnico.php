@@ -1,6 +1,6 @@
 <?php
-namespace tabajara;
-require_once "Livro.php";
+namespace Tucano;
+
 class Tecnico extends Livro {
     private array $formato = ["digital","fisico"];
 

@@ -1,5 +1,5 @@
 <?php
-namespace tabajara;
+namespace Tucano;
 
 class Livro {
     private string $titulo;

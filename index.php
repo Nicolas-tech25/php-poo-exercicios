@@ -13,37 +13,28 @@
         <div class="texto">
             <h1>Dados do Livro </h1>
             <?php
-                /* ================================================== */
-                            /* HTML dos dois exercícios */
-                /* ================================================== */
-                /* Exercicio 01 (set)*/
-                require_once "src/Livro.php";
-                $Livro_01 = new Livro;
+                
+                require_once "vendor/autoload.php";
+                
+                $Livro_01 = new Tucano\Livro;
                 $Livro_01->setTitulo("Hellraiser");
                 $Livro_01->setAutor("Clive Barker");
                 $Livro_01->setPaginas(368);
-                /* Fim 01  (set)*/
-
-                /* Exercicio 02 (set) */
-                require_once "src/tecnico.php";
-                require_once "src/didatico.php";
-                require_once "src/programacao.php";
-                $Tecnico = new Tecnico;
-                $Didatico = new Didatico;
-                $nivel = new Didatico;
-                $Programacao = new Programacao;
+     
+                $Tecnico = new Tucano\Tecnico;
+                $Didatico = new Tucano\Didatico;
+                $nivel = new Tucano\Didatico;
+                $Programacao = new Tucano\Programacao;
                 $Programacao->setArea("Terror");
                 $Didatico->setDiciplina("Literatura");
-                /* Fim 02 (set) */
+                
             ?>
-            <!-- ================================================== -->
-                        <!-- HTML dos dois exercícios -->
-            <!-- ================================================== -->
-            <!-- Exercicio 01  (get) -->
+            
+          
             <h3>Titulo: <?= $Livro_01->getTitulo() ?></h3>
             <h4>Autor: <?= $Livro_01->getAutor() ?></h4>
             
-            <!-- Exercicio 02 (get) -->
+         
             <h4>Informações adicionais</h4>
             <ul>
                 <li>Formato: <?= $Tecnico->getFormato()[0] ?></li>
