@@ -1,0 +1,9 @@
+{
+    "name" : "nicolas/php-poo-exercicios",
+    "description": "Exercicio de php.",
+    "autoload": {
+        "psr-4": {
+            "tabajara\\" : "src/"
+        }
+    }
+}

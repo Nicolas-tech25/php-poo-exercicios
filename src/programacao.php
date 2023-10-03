@@ -1,4 +1,5 @@
 <?php
+namespace tabajara;
 require_once "tecnico.php";
 
 final class Programacao extends Tecnico{

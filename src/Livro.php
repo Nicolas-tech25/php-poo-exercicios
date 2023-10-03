@@ -1,4 +1,5 @@
 <?php
+namespace tabajara;
 
 class Livro {
     private string $titulo;
