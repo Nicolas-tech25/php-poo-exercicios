@@ -1,0 +1,15 @@
+{
+    "name": "nicolas.oamorim/php-poo-exercicios",
+    "description": "Exercicio namespaces",
+    "autoload": {
+        "psr-4": {
+            "Tucano\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nicolas"
+        }
+    ],
+    "require": {}
+}
